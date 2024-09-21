@@ -85,9 +85,8 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 <br/>
 
 ## 🎬 실행 화면 (썸네일 클릭 시 영상 재생)
-[![Video Label](https://img.youtube.com/vi/prh40mSZSug.jpg)](https://youtu.be/prh40mSZSug)
+[![Video Label](https://img.youtube.com/vi/prh40mSZSug/0.jpg)](https://youtu.be/prh40mSZSug)
 
-<br/>
 
 ## 🛠️ 기능
 - 'GenieNavi'는 천재 IT 교육센터의 교육 운영 및 행정 지원을 위해 구축된 챗봇이다. 
