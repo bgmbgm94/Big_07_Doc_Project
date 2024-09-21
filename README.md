@@ -17,7 +17,7 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 
 ## 🕒 개발 기간
 2024.06.13 ~ 2024.07.26
-<br>
+
 
 ## ✨팀원 소개 및 R&R
 
@@ -97,7 +97,7 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 - 프롬프트 설정에서는 역할 기반 설정, 응답 스타일 지침 및 예시 등을 통해 챗봇의 일관된 응답을 유도하였다.
 - 질문과 답변을 opensearh에 저장하여 대화내용을 기록, 추적 가능하게 구현했다.
 
-## 📚파일 설명
+## 📚파일 설명(backend)
 
 | 파일명                | 설명                                  |
 |-----------------------|---------------------------------------|
@@ -110,11 +110,10 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 | `.env`                | 환경변수 정의                        |
 | `chat`                |                                      |
 | `answer`              | 답변 생성 클래스                     |
-| `IndexManager`        | 인덱스 생성, 삭제, insert 클래스        |
-| `13`                  |                                      |
+| `IndexManager`        | 인덱스 생성, 삭제, 삽입 클래스        |
 | `models`              | 모델 별 클래스 정의                   |
 | `opensearch_client`   | Search class 정의                    |
-| `PromptManager`       | System prompt. User prompt            |
+| `PromptManager`       | System prompt, User prompt 정의      |
 | `TextEmbeddingManager`| 임베딩 class                         |
 
 
