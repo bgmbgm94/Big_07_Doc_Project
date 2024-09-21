@@ -19,6 +19,7 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 ------
 
 ## 팀원 소개
+
 <table>
   <tr>
     <td align="center">
@@ -44,38 +45,36 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
     </td>
 </table>
 
+
 ## architecture
 
 - 챗봇
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/5.JPG">
 <br><br>
-
-- 사전 데이터 임베딩하여 opensearch에 저장
-- 질문을 받으면 임베딩 진행
-- FAQ index에서 유사도 검색 수행하여 0.7 이상이면 바로 답변 출력.
-- 자연스러움을 위해 “추가적인 문의사항이 있으시면 언제든 이야기해 주세요😊."가 답변 뒤에 출력되도록 설정
-- 0.7 이하라면 FAQ와 DOCS index를 검색하여 각 3개씩 문서 추출
-- 질문과 문서(최대 6개)를 LLM에 전달
-- 답변이 나오면 opensearch에 저장, 사용자 화면에 출력
+- 사전 데이터 임베딩하여 opensearch에 저장  
+- 질문을 받으면 임베딩 진행  
+- FAQ index에서 유사도 검색 수행하여 0.7 이상이면 바로 답변 출력  
+- 자연스러움을 위해 “추가적인 문의사항이 있으시면 언제든 이야기해 주세요😊."가 답변 뒤에 출력되도록 설정  
+- 0.7 이하라면 FAQ와 DOCS index를 검색하여 각 3개씩 문서 추출  
+- 질문과 문서(최대 6개)를 LLM에 전달  
+- 답변이 나오면 opensearch에 저장, 사용자 화면에 출력  
 
 ------
 
 - 인프라
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/6.JPG">
 <br><br>
-- API 키 적용 등 보안적 요소를 중시하여 배스천 호스트를 통한 프록시 통신 구축
-- 유연한 작업환경 구축 및 변경을 위해 EC2 인스턴스 내 모두 도커 환경 구축
+- API 키 적용 등 보안적 요소를 중시하여 배스천 호스트를 통한 프록시 통신 구축  
+- 유연한 작업환경 구축 및 변경을 위해 EC2 인스턴스 내 모두 도커 환경 구축  
 
 ------
 
 ⏩ 실행방법
 - backend 에 .env 파일을 생성해 LLM model api key, AWS 계정 정보 정의(변수 명은 settings.py에서 확인)
-- frontend main.py 실행
+- frontend main.py 실행  
 
 -----
 
-❗ 주의사항
-
 ## 기술 스택
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/TensorFlow-4538ff?style=for-the-badge&logo=TensorFlow&logoColor=white"> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white"> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/Git-06D6A9?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"> <img src="https://img.shields.io/badge/numpy-0093DD?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/anaconda-FFA116?style=for-the-badge&logo=anaconda&logoColor=white"> <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white"> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/TensorFlow-4538ff?style=for-the-badge&logo=TensorFlow&logoColor=white"> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white"> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/Git-06D6A9?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"> <img src="https://img.shields.io/badge/numpy-0093DD?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/anaconda-FFA116?style=for-the-badge&logo=anaconda&logoColor=white"> <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white"> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=white">
