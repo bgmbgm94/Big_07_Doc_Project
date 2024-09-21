@@ -44,12 +44,13 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 </table>
 <br>
 
+
 ## 🔍architecture
 
-- 챗봇
+> 챗봇
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/5.JPG">
 <br>
--  사전 데이터 임베딩하여 opensearch에 저장
+- 사전 데이터 임베딩하여 opensearch에 저장
 
 - 질문을 받으면 임베딩 진행
 
@@ -63,8 +64,9 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 
 - 답변이 나오면 opensearch에 저장, 사용자 화면에 출력
 
+------
 
-- 인프라
+> 인프라
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/6.JPG">
 <br>
 
@@ -75,7 +77,6 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 
 ## 👤GenieNavi 화면
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/8.png">
-<br>
 
 ## ⏩실행방법
 
