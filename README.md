@@ -12,12 +12,12 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 
 - Retrieval-Augmented Generation(RAG)
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/2.JPG">
-<br><br>
+<br>
 - 개발 기간 : 2024.06.13 ~ 2024.07.26
 
 ------
 
-## 팀원 소개
+## ✨팀원 소개
 
 <table>
   <tr>
@@ -49,24 +49,22 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 - 챗봇
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/5.JPG">
 <br><br>
-- 사전 데이터 임베딩하여 opensearch에 저장
-- 질문을 받으면 임베딩 진행
-- FAQ index에서 유사도 검색 수행하여 0.7 이상이면 바로 답변 출력
-- 자연스러움을 위해 “추가적인 문의사항이 있으시면 언제든 이야기해 주세요😊."가 답변 뒤에 출력되도록 설정
-- 0.7 이하라면 FAQ와 DOCS index를 검색하여 각 3개씩 문서 추출
-- 질문과 문서(최대 6개)를 LLM에 전달
-- 답변이 나오면 opensearch에 저장, 사용자 화면에 출력
-
-------
+> 사전 데이터 임베딩하여 opensearch에 저장
+> 질문을 받으면 임베딩 진행
+> FAQ index에서 유사도 검색 수행하여 0.7 이상이면 바로 답변 출력
+> 자연스러움을 위해 “추가적인 문의사항이 있으시면 언제든 이야기해 주세요😊."가 답변 뒤에 출력되도록 설정
+> 0.7 이하라면 FAQ와 DOCS index를 검색하여 각 3개씩 문서 추출
+> 질문과 문서(최대 6개)를 LLM에 전달
+> 답변이 나오면 opensearch에 저장, 사용자 화면에 출력
 
 - 인프라
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/6.JPG">
 <br><br>
-- API 키 적용 등 보안적 요소를 중시하여 배스천 호스트를 통한 프록시 통신 구축
-- 유연한 작업환경 구축 및 변경을 위해 EC2 인스턴스 내 모두 도커 환경 구축
+> API 키 적용 등 보안적 요소를 중시하여 배스천 호스트를 통한 프록시 통신 구축
+> 유연한 작업환경 구축 및 변경을 위해 EC2 인스턴스 내 모두 도커 환경 구축
 
 ------
-## GenieNavi 화면
+## 👤GenieNavi 화면
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/8.png">
 <br><br>
 
