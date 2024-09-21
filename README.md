@@ -2,7 +2,7 @@
 천재교육 빅데이터 서비스 개발자 양성 과정 최종 프로젝트
 
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/1.JPG">
-<br><br>
+<br>
 
 ## 🌟프로젝트 소개
 
@@ -14,9 +14,12 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 - Retrieval-Augmented Generation(RAG)
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/2.JPG">
 <br>
-- 개발 기간 : 2024.06.13 ~ 2024.07.26
 
-## ✨팀원 소개
+## 🕒 개발 기간
+2024.06.13 ~ 2024.07.26
+<br>
+
+## ✨팀원 소개 및 R&R
 
 <table>
   <tr>
@@ -50,6 +53,7 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 > 챗봇
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/5.JPG">
 <br>
+
 - 사전 데이터 임베딩하여 opensearch에 저장
 
 - 질문을 받으면 임베딩 진행
@@ -77,6 +81,22 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 
 ## 👤GenieNavi 화면
 <img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/8.png">
+
+<br/>
+
+## 🎬 실행 화면 (썸네일 클릭 시 영상 재생)
+[![Video Label](http://img.youtube.com/prh40mSZSug.jpg)](https://youtu.be/prh40mSZSug)
+
+<br/>
+
+## 🛠️ 기능
+- 'GenieNavi'는 천재 IT 교육센터의 교육 운영 및 행정 지원을 위해 구축된 챗봇이다. 
+- 문서검색 기반인 RAG 방식을 채택하여 도메인에 특화된 응답 정확성을 높였으며, OpenSearch를 활용한 데이터 검색과 관리 시스템을 구축하였다. 
+- 데이터는 KDT, 내일배움카드, 국민취업지원제도 및 운영 매뉴얼을 중심으로 총 11개의 PDF 파일에서 텍스트를 추출하였으며, 다양한 데이터를 효과적으로 적재 및 분석할 수 있도록 했다.
+- 기존 사람이 직접 대답하지 않고 실시간으로 질의응답이 가능하다.
+- LLM의 문맥 관리를 위해 세션 유지 기술을 적용하여 대화형 인공지능 모델이 사용자의 이전 발언이나 질문을 기억하고, 이에 맞춰 적절한 답변을 제공할 수 있도록 했다.
+- 프롬프트 설정에서는 역할 기반 설정, 응답 스타일 지침 및 예시 등을 통해 챗봇의 일관된 응답을 유도하였다.
+- 질문과 답변을 opensearh에 저장하여 대화내용을 기록, 추적 가능하게 구현했다.
 
 ## ⏩실행방법
 
