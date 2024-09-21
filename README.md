@@ -1,6 +1,9 @@
 # GenieNavi
 천재교육 빅데이터 서비스 개발자 양성 과정 최종 프로젝트
-<img src=https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/1.JPG?raw=true>
+
+<img width="743" alt="loading..." src="https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/1.JPG">
+<br><br>
+<img src=https://github.com/bgmbgm94/Big_07_Doc_Project/blob/main/img/1.JPG>
 ## 프로젝트 소개
 
 인공지능(AI)은 다양한 분야에서 인간의 지적 노동을 지원하며 정량적 및 정성적인 성과를 내고 있다. 특히 AI는 자연어 처리와 이미지 인식 같은 정성적 영역에서도 뛰어난 성능을 발휘하고 있는데, 
