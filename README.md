@@ -85,7 +85,7 @@ Keywords: 인공지능, AWS, LLM, RAG, 검색 서비스, 챗봇, prompt engineer
 <br/>
 
 ## 🎬 실행 화면 (썸네일 클릭 시 영상 재생)
-[![Video Label](http://img.youtube.com/prh40mSZSug.jpg)](https://youtu.be/prh40mSZSug)
+[![Video Label](http://img.youtube.com/vi/prh40mSZSug.jpg)](https://youtu.be/prh40mSZSug)
 
 <br/>
 
