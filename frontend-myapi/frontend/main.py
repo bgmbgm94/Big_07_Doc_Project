@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -7,6 +7,8 @@ from starlette.requests import Request
 import requests
 import os
 
+
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:1234").rstrip("/")
 
 app = FastAPI()
 
@@ -51,7 +53,11 @@ async def favicon():
 @app.post("/ask")
 async def proxy_ask(request: Request):
     payload = await request.json()
-    response = requests.post(f"http://10.0.136.43:1234/ask",json=payload)
+    try:
+        response = requests.post(f"{BACKEND_URL}/ask", json=payload, timeout=60)
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        raise HTTPException(status_code=502, detail="Backend request failed") from exc
     return response.json()
 
 
